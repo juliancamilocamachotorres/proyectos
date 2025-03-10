@@ -1,5 +1,5 @@
 def rendimientos(interesea:float,valorinicial:float,dias:int)->int:
-	interesdiario=(1+interesea)(1/365)-1
+	interesdiario=(1+interesea)**(1/365)-1
 	total=valorinicial
 	dia=0
 	while dia < dias:
